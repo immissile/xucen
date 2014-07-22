@@ -3,18 +3,22 @@ $(function(){
   var floatMoon = function(){
     $moon.animate({
       top: 23
-    }, 1000, function(){
+    }, 1800, "easeInOutCubic", function(){
       $moon.animate({
         top: 25
-      }, 1000);
+      }, 1000, "easeOutQuad", function(){
+        /*
+        $moon.animate({
+          top: 25
+        }, 1800, "easeOutQuad");
+        */
+      });
     });
   };
 
   if($moon.length > 0){
-    setTimeout(function(){
-      setInterval(function(){
-        floatMoon();
-      }, 4000);
-    }, 2000);
+    setInterval(function(){
+      floatMoon();
+    }, 4500);
   }
 })

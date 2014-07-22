@@ -22,15 +22,13 @@
 <body id="" class="<?php body_class();?>">
   <div class="wrapper">
   <header>
+    <?php if(!$_GET){?>
     <div class="moon fadeInDown animated">
       <img src="<?php missile_img('moon.png')?>">
     </div>
+    <?php }?>
     <div class="top-bar">
       <img src="<?php missile_img('angle.png');?>">
     </div>
     <?php missile_menu();?>
   </header>
-
-  <div class="banner container">
-    <?php header_images();?>
-  </div>

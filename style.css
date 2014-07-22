@@ -93,3 +93,139 @@ header {
 }
 
 /* end header*/
+
+
+/* common */
+.s-3 {
+  width: 33.33333333%;
+  float: left;
+}
+.content {
+  overflow: auto;
+}
+/* end common */
+
+
+/* index */
+.index-content {
+  background-color: #f4f5f0;
+  overflow: auto;
+}
+.index-line {
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 15px;
+}
+.index-line img {
+  display: inline-block;
+  max-width: 835px;
+}
+.three-cover {
+  overflow: auto;
+}
+.three-cover > div.s-3 {
+  position: relative;
+  padding: 30px 0;
+  text-align: center;
+  min-height: 200px;
+}
+.three-cover > div.s-3 img {
+}
+.three-cover > div.s-3 p {
+  position: absolute;
+  display: inline-block;
+  clear: both;
+  width: 80%;
+  margin: 0 auto;
+  bottom: 0;
+  left: 10%;
+  height: 5px;
+  background: transparent url(images/dot.png);
+  background-repeat: repeat-x;
+  background-position: 0 bottom;
+}
+.s-l {
+  width: 31%;
+}
+.s-m {
+  width: 38%;
+}
+.s-r {
+  width: 31%;
+}
+.s-l img {
+  width: 180px;
+  height: 180px;
+}
+.s-m img {
+  width: 265px;
+}
+.s-r img {
+  width: 116px;
+}
+.thr-cov-a, .thr-cov-b {
+  background-color: transparent;
+  background-image: url(images/index-line-2.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.thr-cov-a {
+  background-position: left center;
+}
+.thr-cov-b {
+  background-position: right center;
+}
+.three-cover > div.s-3 h3 {
+  font-weight: normal;
+  font-size: 13px;
+  padding: 0 10%;
+  text-align: left;
+  line-height: 20px;
+}
+.three-text > div.s-3 {
+  padding-bottom: 0;
+}
+.mountain {
+  text-align: center;
+  background: url(images/index-line.png);
+  background-repeat: repeat-x;
+  background-position: 0 bottom;
+  background-size: contain;
+}
+.mountain img {
+  width: 835px;
+  margin-bottom: 4px;
+}
+.single > div.s-3 {
+  padding: 50px 0;
+}
+.single > div.s-3 img {
+  height: auto;
+}
+.single .s-l {
+  text-align: right;
+}
+.single .s-m {
+  text-align: center;
+}
+.single .s-r {
+  text-align: left;
+}
+.single .s-l img {
+  width: 248px;
+}
+.single .s-r img {
+  width: 245px;
+}
+
+.index-footer {
+  padding-top: 7px;
+  padding-bottom: 70px;
+  background: url(images/index-line-3.png) repeat-x;
+  background-position: 0 top;
+  text-align: center;
+}
+.index-footer img {
+  width: 640px;
+}
+/* end index*/

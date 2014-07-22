@@ -62,4 +62,10 @@
     );
     return wp_nav_menu($args);
    }
+
+   // 输出banner
+   function missile_banner($page){
+    echo bloginfo('stylesheet_directory') . '/images/banner/' . $page . '-980.jpg';
+   }
+
 ?>

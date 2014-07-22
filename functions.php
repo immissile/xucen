@@ -773,7 +773,7 @@ function header_images() {
 		$header_image = get_header_image();
 		if ( ! empty( $header_image ) ) :
 			?>
-			<img class="header-img" src="<?php header_image(); ?>" width="<?php echo get_custom_header()->width; ?>" height="<?php echo get_custom_header()->height; ?>" alt="" />
+			<img class="header-img" src="<?php header_image(); ?>" alt="" />
 			<?php
 		endif;
 	}
@@ -801,3 +801,8 @@ function mybirdsite_page_menu_args( $args ) {
   return $args;
 }
 add_filter( 'wp_page_menu_args', 'mybirdsite_page_menu_args' );
+
+
+function get_banner($page){
+  get_template_part('banner', $page);
+}
